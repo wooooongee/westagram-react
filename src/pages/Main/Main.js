@@ -12,7 +12,7 @@ function Main(){
           <p className="font" style={{fontSize: "25px" , marginBottom: "0"}}>Instagram</p>
         </div>
           <div style={{flexGrow: "2"}}>
-          <input type="text" placeholder="&#Xf002; 검색" className="search"/> 
+          <input type="text" placeholder={"&#Xf002; 검색"} className="search"/> 
           </div>
           <button className="nav-button"><img src="/images/explore.png" alt="explore-img" className="img" /></button>
         <button className="nav-button"><img src="/images/heart.png" alt="heart-img" className="img" /></button>        
@@ -45,7 +45,7 @@ function Main(){
           <img src="/images/alex-shuper-Xw5goPB4yws-unsplash.jpg" alt="profile-img" />
         </div>
 
-        <div className="fed-content">
+        <div className="feed-content">
           <div className="content-menu">
             <div className="left">
               <i className="fa-solid fa-heart"></i>

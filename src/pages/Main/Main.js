@@ -1,4 +1,6 @@
-import "./Main.css"
+import "./Main.scss"
+import "../../styles/common.scss"
+
 
 function Main(){
     return(
@@ -9,10 +11,10 @@ function Main(){
           <img src="/images/instagram.png" alt="instagram-img" className="img" />
         </div>
         <div>
-          <p className="font" style={{fontSize: "25px" , marginBottom: "0"}}>Instagram</p>
+          <p className="font" style={{fontSize: "25px" , marginBottom: "0"}}>Westagram</p>
         </div>
           <div style={{flexGrow: "2"}}>
-          <input type="text" placeholder={"&#Xf002; 검색"} className="search"/> 
+          <input type="text" placeholder="검색" className="search"/> 
           </div>
           <button className="nav-button"><img src="/images/explore.png" alt="explore-img" className="img" /></button>
         <button className="nav-button"><img src="/images/heart.png" alt="heart-img" className="img" /></button>        

@@ -1,15 +1,14 @@
-import "./Login.scss"
-import "../../styles/common.scss"
-import {Link , useNavigate} from "react-router-dom"
+import './Login.scss';
+import '../../styles/common.scss';
+import { Link, useNavigate } from 'react-router-dom';
 
-
-function Login(){
+function Login() {
   const navigate = useNavigate();
-    return(
+  return (
     <div className="container">
-        <div className="login-box">
+      <div className="login-box">
         <h1 className="font">Westagram</h1>
-  
+
         <form action="">
           <input
             type="text"
@@ -17,17 +16,29 @@ function Login(){
             id="id"
             className=""
           />
-          <input type="password" placeholder="비밀번호" id="pw" className="input" />
+          <input
+            type="password"
+            placeholder="비밀번호"
+            id="pw"
+            className="input"
+          />
         </form>
-  
-        <button className="loginBtn" onClick={()=>{navigate('/main')}}>로그인</button>
-  
+
+        <button
+          className="loginBtn"
+          onClick={() => {
+            navigate('/main');
+          }}
+        >
+          로그인
+        </button>
+
         <div className="repassword">
           <a href="">비밀번호를 잊으셨나요?</a>
         </div>
       </div>
-    </div>  
-    )
+    </div>
+  );
 }
 
-export default Login
+export default Login;
